@@ -2,7 +2,11 @@ package com.zyrs.criminalintent.model;
 
 import java.util.Date;
 import java.util.UUID;
-
+/**
+ * ·¸´í¼ÇÂ¼¶ÔÏó
+ * @author Administrator
+ *
+ */
 public class Crime {
 
 	private UUID mId;
@@ -37,5 +41,10 @@ public class Crime {
 
 	public Date getDate() {
 		return mDate;
+	}
+	
+	@Override
+	public String toString() {
+		return getTitle();
 	}
 }
