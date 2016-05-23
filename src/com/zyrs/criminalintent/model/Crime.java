@@ -43,6 +43,10 @@ public class Crime {
 		return mDate;
 	}
 	
+	public void setDate(Date date) {
+		mDate = date;
+	}
+
 	@Override
 	public String toString() {
 		return getTitle();
